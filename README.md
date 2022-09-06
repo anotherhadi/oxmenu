@@ -69,7 +69,7 @@ Result :
 from oxmenu import CheckBox
 menu = CheckBox(title="My Menu", subtitle="My Subtitle", min_options=1, max_options=2)
 
-menu.add("One")
+menu.add("One")  # You can add default=True
 menu.add("Two")
 menu.add("Three")
 menu.add("Four")

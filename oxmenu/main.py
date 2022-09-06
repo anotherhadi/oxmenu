@@ -131,8 +131,8 @@ class CheckBox:
         finally:
             termios.tcsetattr(fd, termios.TCSAFLUSH, orig)
             
-    def add(self, name=""):
-        self.options.append([name, False])
+    def add(self, name="", default=False):
+        self.options.append([name, default])
 
     def display(self, selected):
         if self.title != "":
