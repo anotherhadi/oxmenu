@@ -156,6 +156,9 @@ class CheckBox:
     def select(self):
         selected = 1
         nb_selected = 0
+        for i in range(len(self.options)):
+            if self.options[i][1] == True:
+                nb_selected += 1
         print(a.sc,end="")
         while True:
             print(a.rc,end="")

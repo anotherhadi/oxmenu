@@ -6,7 +6,7 @@ DESCRIPTION = 'A Handy Package to Create 3 Different types of Menus'
 TAG = ['menu', 'arrow key', 'checkbox']
 REQUIREMENT = ['oxansi']
 
-VERSION = '0.0.1'
+VERSION = '0.0.3'
 LONG_DESCRIPTION = (Path(__file__).parent / "README.md").read_text()
 
 setup(
